@@ -1,0 +1,23 @@
+{
+  "name": "qa",
+  "version": "1.0.0",
+  "description": "playwright-qa-portfolio/\r ├── .github/\r │   └── workflows/\r │       └── playwright.yml     # Automated CI/CD pipeline script\r ├── src/\r │   ├── pages/                 # Page Object Model (POM) classes\r │   │   ├── base.page.ts\r │   │   ├── login.page.ts\r │   │   └── dashboard.page.ts\r │   └── utils/\r │       └── api-client.ts      # Custom API helper (if extending Playwright request)\r ├── tests/\r │   ├── api/\r │   │   └── auth-api.spec.ts   # Backend / API automation endpoints\r │   ├── e2e/\r │   │   └── login-flow.spec.ts # Frontend UI user journeys\r │   ├── integration/\r │   │   └── hybrid-flow.spec.ts# Hybrid API setup + UI verification tests\r │   └── visual/\r │       └── visual.spec.ts     # Visual regression/snapshot tests\r ├── .env.example               # Template for BASE_URL, API_KEY, etc.\r ├── .gitignore                 # Excludes node_modules, test-results, and .env\r ├── playwright.config.ts       # Central Playwright configurations\r ├── package.json               # Dependencies and execution scripts\r └── README.md                  # Detailed portfolio documentation",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akib1902/QA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/akib1902/QA/issues"
+  },
+  "homepage": "https://github.com/akib1902/QA#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6"
+  }
+}
